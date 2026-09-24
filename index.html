@@ -1,23 +1,145 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML + CSS + JS</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div id="root">
-      <div>
-        <img src="/images/html.svg" class="logo"/>
-        <img src="/images/css.svg" class="logo"/>
-        <img src="/images/javascript.svg" class="logo"/>
-      </div>
-    <h1>HTML + CSS + JavaScript</h1>
-    <p class="read-instructions" style="display: none;">
-      Update HTML/ CSS/ JS code and see the changes in real time.
-    </p>
-  </div>
-  <script src="script.js"></script>
-  </body>
-</html> 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TripAI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Intro -->
+    <div class="card intro">
+        <b>✈ TripAI</b>
+
+        <h1>
+            Plan your<br>
+            dream trip<br>
+            with AI
+        </h1>
+
+        <p>
+            Discover new places, create custom
+            itineraries and make unforgettable memories.
+        </p>
+
+        <button>Start Planning →</button>
+    </div>
+
+    <!-- Main Image -->
+    <div class="card hero">
+        <img src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=800">
+
+        <div class="overlay"></div>
+
+        <div class="heroText">
+            <small>EXPLORE ───</small>
+            <h1>The World<br>with AI</h1>
+            <p>Personalized travel plans for everyone.</p>
+        </div>
+    </div>
+
+    <!-- Bali -->
+    <div class="card place">
+        <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=500">
+
+        <div class="overlay"></div>
+
+        <div class="placeText">
+            📍 Bali, Indonesia
+            <h3>Relax on<br>Paradise Beaches</h3>
+        </div>
+    </div>
+
+    <!-- Switzerland -->
+    <div class="card place">
+        <img src="https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=500">
+
+        <div class="overlay"></div>
+
+        <div class="placeText">
+            🏔 Switzerland
+            <h3>Explore<br>Majestic Mountains</h3>
+        </div>
+    </div>
+
+    <!-- Trips -->
+    <div class="card trips">
+        <h3>📅 Your Next Trip</h3>
+
+        <div class="trip">
+            <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=200">
+            <span>Bali, Indonesia<br>12–18 Jun</span>
+        </div>
+
+        <div class="trip">
+            <img src="https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=200">
+            <span>Switzerland<br>5–12 Aug</span>
+        </div>
+
+        <div class="trip">
+            <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=200">
+            <span>Tokyo, Japan<br>20–28 Sep</span>
+        </div>
+    </div>
+
+    <!-- AI -->
+    <div class="card ai">
+        <h2>
+            🤖<br>
+            AI creates<br>
+            your perfect<br>
+            itinerary.
+        </h2>
+
+        <p>Tell us your interests and budget.</p>
+
+        <button>Create My Plan →</button>
+    </div>
+
+    <!-- Tokyo -->
+    <div class="card place">
+        <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=500">
+
+        <div class="overlay"></div>
+
+        <div class="placeText">
+            📍 Tokyo, Japan
+            <h3>Experience<br>New Cultures</h3>
+        </div>
+    </div>
+
+    <!-- Popular -->
+    <div class="card popular">
+
+        <div>
+            <h3>🧭 Popular Destinations</h3>
+            <p>Handpicked places for your next adventure.</p>
+            <u>Explore All →</u>
+        </div>
+
+        <div>
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=200">
+            <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=200">
+            <img src="https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=200">
+        </div>
+
+    </div>
+
+    <!-- Final -->
+    <div class="card final">
+        <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?w=800">
+
+        <div class="overlay"></div>
+
+        <div class="finalText">
+            Collect moments,<br>
+            not things ♡
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
